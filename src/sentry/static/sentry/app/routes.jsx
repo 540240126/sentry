@@ -188,7 +188,6 @@ const orgSettingsRoutes = [
     name="Repositories"
     component={errorHandler(OrganizationRepositoriesView)}
   />,
-
   <Route
     key="settings"
     path="settings/"
